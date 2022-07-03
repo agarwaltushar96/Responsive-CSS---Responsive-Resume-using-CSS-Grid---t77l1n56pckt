@@ -153,3 +153,9 @@ body {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+@media screen and (max-width: 630px) {
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
