@@ -3,8 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     list-style: none;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-    font-family: 'Caslons Egyptian';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Caslons Egyptian'; */
 }
 
 body {
@@ -17,11 +17,12 @@ body {
     width: 90%;
     display: grid;
     grid-template-columns: 300px 700px;
-    /* grid-template-rows: 20% 80%; */
+    grid-template-rows: 20% 80%;
     margin: 20px auto;
 }
 
 .left-section {
+    grid-area: 1/1/3/2;
     grid-column: span 1;
     background-color: rgb(255, 209, 0);
 }
@@ -106,6 +107,7 @@ body {
 }
 
 .right-section {
+    grid-area: 1/1/3/2;
     grid-column: span 1 / span 2;
     background-color: rgb(144, 195, 255);
 }
