@@ -9,9 +9,9 @@
 .main-content {
     min-height: 1000px;
     width: 90%;
+    margin: 20px auto;
     display: grid;
     grid-template-columns: 300px 700px;
-    /* margin: 20px auto; */
 }
 
 .left-section {
@@ -58,7 +58,6 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 5px;
-    /* margin-bottom: 10px; */
 }
 
 .social-media .icon {
@@ -118,20 +117,17 @@
 }
 
 .education {
-    display: inline-block;
-    width: 604px;
+    display: block;
     margin-top: 1.5rem;
 }
 
 .education-content {
     padding-left: 0.5rem;
     float: left;
-    width: 65%;
 }
 
 .education-details {
     float: right;
-    width: 35%;
 }
 
 .projects {
